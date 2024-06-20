@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+.container{
+    flex: 1;
+    width: 100%;
+    /* height: 100%; */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(imagens/backg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    /* bottom: 0%; */
+}
+.navbar{
+height: 13%;
+display: flex;
+align-items: center;
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+    left: 60%;
+}
+
+.menu{
+    width: 20px;
+    cursor: pointer;
+    right: 10px;
+}
+
+nav{
+    flex: 1;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    text-shadow: 0 0 10px #999;
+}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 13px;
+
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 70%;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    color: #000;
+    font-size: 20px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color: #3b9b43;
+}
+
+
+.card{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 30px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    display: inline-table;
+    
+}
+
+.card1{
+    background-image: url(imagens/abelha.jpg);
+}
+
+.card2{
+    background-image: url(imagens/solo2.jpg);
+}
+
+.card3{
+    background-image: url(imagens/pic3.jpg);
+}
+
+.card4{
+    background-image: url(imagens/pic4.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 10px #999;
+    font-size: 20px;
+}
+.card p{
+    text-shadow: 0 0 20x #000;
+    font-size: 10px;
+    color: #fffdfd;
+}
+
+
+footer {
+    background-color: rgba(53, 53, 53, 0.548); 
+    backdrop-filter: blur(10px); 
+     background-color: #332013;
+    color: rgb(148, 148, 148); 
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
